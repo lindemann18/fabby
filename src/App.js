@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import HeaderContainer from './general/containers/header-container';
-import './css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
   render() {
