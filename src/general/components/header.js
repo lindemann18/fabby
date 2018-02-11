@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = ()=>(
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -10,10 +11,10 @@ const Header = ()=>(
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <Link to="/" className="nav-link">Home</Link>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <Link to="/about" className="nav-link">About</Link>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
