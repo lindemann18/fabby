@@ -1,0 +1,21 @@
+.aboutme {
+  margin-top: 2%;
+  .aboutme__name {
+    display: block;
+    font-size: 22px;
+    font-family: $crimson;
+  }
+
+  .aboutme__title {
+    display: block;
+    font-size: 16px;
+    color: $silver;
+    font-family: $montserrat;
+  }
+
+  .aboutme__description{
+    text-align: left;
+    font-family: $montserrat;
+    font-size: 15px;
+  }
+}

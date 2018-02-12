@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Main = ()=>(
-  <h1>Main</h1>
+  <div className="main col-md-12">
+      <div className="row">
+          
+      </div>
+  </div>
 )
 
 export default Main;
