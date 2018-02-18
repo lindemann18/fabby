@@ -1,0 +1,15 @@
+.about {
+
+  .about__section {
+    padding-top: 3%;
+    border-bottom: 1px solid $silver;
+    font-family: $crimson;
+    font-size: 18px;
+    margin-bottom: 2%;
+    
+    .about__title {
+      padding-bottom: 1%;
+      font-family: $montserrat;
+    }
+  }
+}

@@ -1,26 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = ()=>(
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <nav className="navbar navbar-expand-lg navbar-light">
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div className="collapse navbar-collapse justify-content-end menu" id="navbarSupportedContent">
+      <div className="logo">
+        <Link to="/" className="logo__name">Dra. Faviola Sanchez</Link>
+      </div>
+      <ul className="navbar-nav nav">
+        <li className="nav-item active">
+          <Link to="/" className="nav-link">Inicio</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/aboutme" className="nav-link">¿Quien Soy?</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/about" className="nav-link">Servicios</Link>
+        </li>
+
+        <li className="nav-item">
+          <Link to="/about" className="nav-link">Testimonios</Link>
+        </li>
+
+        <li className="nav-item">
+          <Link to="/about" className="nav-link">Contacto</Link>
+        </li>
+      </ul>
+    </div>
+  </nav>
 )
 
 export default Header;
