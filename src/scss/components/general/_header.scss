@@ -1,0 +1,21 @@
+.menu {
+  @include media-breakpoint-up(md) {
+      margin-right: 10%;
+  }
+}
+
+.logo {
+  position: absolute;
+  left: 10%;
+
+  @include media-breakpoint-only(xs) {
+    display: none;
+  }
+
+  .logo__name {
+    text-decoration: none;
+    color: #6c5ce7;
+    font-size: 22px;
+    vertical-align: top;
+  }
+}

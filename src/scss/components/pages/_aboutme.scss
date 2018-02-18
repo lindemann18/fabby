@@ -15,6 +15,9 @@
   .aboutme__picture {
     width: 26%;
     margin-top: 2%;
+    @include media-breakpoint-only(xs) {
+      width: 45%;
+    }
   }
 
   .aboutme__title {
@@ -31,6 +34,10 @@
     width: 80%;
     margin: 0 auto;
     margin-bottom: 3%;
+    @include media-breakpoint-only(xs) {
+      width: 100%;
+      padding: 0 3%;
+    }
   }
 }
 
