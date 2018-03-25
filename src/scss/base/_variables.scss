@@ -1,7 +1,16 @@
 //Color variables
+/// @content Global variables such as colors and fonts
+/// @type Color
 $silver: #ccc;
-
+/// @type color
+$pickled_bluewood: #304551;
+// @type colors
+$aqua_haze: #F0F4F6;
 
 // Font variables
+/// used frecuently at plain text
+/// @type font
 $crimson: 'Crimson Text', serif;
+/// used frecuently at titles
+/// @type font
 $montserrat: 'Montserrat', sans-serif;

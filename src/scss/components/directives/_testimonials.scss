@@ -1,0 +1,16 @@
+.testimonial-component{
+  padding-bottom: 3%;
+  font-weight: 400 !important;
+  color: #304551;
+  border-bottom: 1px solid rgba(51,63,72,.25);
+
+  .testimonial-component__name {
+    margin-bottom: 3%;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgba(51,63,72,.75);
+    font-family: proxima-nova,sans-serif;
+    font-style: normal!important;
+    font-weight: 400!important;
+  }
+}
