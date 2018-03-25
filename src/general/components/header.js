@@ -23,7 +23,7 @@ const Header = ()=>(
         </li>
 
         <li className="nav-item">
-          <Link to="/about" className="nav-link">Testimonios</Link>
+          <Link to="/testimonial" className="nav-link">Testimonios</Link>
         </li>
 
         <li className="nav-item">
