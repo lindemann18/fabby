@@ -1,5 +1,13 @@
+/// @author Chuvakovich Zukovsky
 @import '../../node_modules/bootstrap/scss/bootstrap';
+// base
 @import 'base/variables';
+// pages
 @import 'components/pages/about';
 @import 'components/pages/aboutme';
+@import 'components/pages/testimonials';
+// components
 @import 'components/general/header';
+
+// Directives
+@import 'components/directives/testimonials';

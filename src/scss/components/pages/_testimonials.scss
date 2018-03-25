@@ -1,0 +1,38 @@
+/// @content Testimonials styles
+.Testimonial {
+  margin-top: 2%;
+  overflow: hidden;
+  .Testimonial__header {
+    margin-bottom: 4%;
+  }
+
+  .Testimonial__aside {
+    display: inline-block;
+    float: left;
+    font-family: $crimson;
+    background-color: $aqua_haze;
+  }
+
+  .Testimonial__body {
+    display: inline-block;
+    float: right;
+    text-align: left;
+    padding-left: 3%;
+  }
+
+  .testimonial-component {
+    margin-bottom: 4%;
+    font-family: $crimson;
+    p {
+      font-family: $crimson;
+    }
+  }
+
+  .Testimonial__title{
+    font-family: $montserrat;
+  }
+
+  .Testimonial__headtext {
+    font-family: $crimson;
+  }
+}
