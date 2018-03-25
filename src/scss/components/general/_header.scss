@@ -4,6 +4,22 @@
   }
 }
 
+.logo__mobile {
+      position: absolute;
+      display: block;
+      font-size: 1.3em;
+      left: 8%;
+      right: 0;
+      top: 2%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 209px;
+
+      @include media-breakpoint-up(md) {
+        display: none;
+     }
+}
+
 .logo {
   position: absolute;
   left: 10%;
@@ -17,5 +33,11 @@
     color: #6c5ce7;
     font-size: 22px;
     vertical-align: top;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768) {
+  .logo__mobile {
+    display: block;
   }
 }
