@@ -16,10 +16,10 @@ class App extends Component {
       <div className="App container">
           <HeaderContainer />
           <Switch>
-            <Route path="/about" component={AboutContainer} />
-            <Route path="/aboutme" component={AboutMeContainer} />
+            <Route path="/about"       component={AboutContainer} />
+            <Route path="/aboutme"     component={AboutMeContainer} />
             <Route path="/testimonial" component={TestimonialContainer} />
-            <Route path="/" component={MainContainer} />
+            <Route path="/"            component={MainContainer} />
           </Switch>
       </div>
     );
