@@ -3,6 +3,29 @@
       margin-right: 10%;
   }
 }
+/// @output Mixin to style the link menu when hover or active
+@mixin active_hover_link() {
+  border: 1px solid #ccc;
+  background-color: $bondi_blue;
+  border-radius: 5px;
+  color: white !important;
+}
+.active {
+  @include active_hover_link();
+}
+
+.navbar-collapse .navbar-nav li.nav-item {
+  border: 1px solid transparent !important;
+  font-family: 'proxima-nova,sans-serif' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  &:hover {
+    a {
+      color: white !important;
+    }
+    @include active_hover_link();
+  }
+}
 
 .logo__mobile {
       position: absolute;
@@ -30,9 +53,12 @@
 
   .logo__name {
     text-decoration: none;
-    color: #6c5ce7;
+    color: $bondi_blue;
     font-size: 22px;
     vertical-align: top;
+    font-family: 'proxima-nova,sans-serif' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
   }
 }
 
