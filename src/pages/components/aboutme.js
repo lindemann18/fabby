@@ -1,5 +1,6 @@
 import React from 'react';
 import Fabby from '../../img/fabby.jpg';
+import { aboutme_description } from '../../general/text/webtext';
 
 const AboutMe = ()=> (
     <div className="aboutme col-md-12">
@@ -10,12 +11,7 @@ const AboutMe = ()=> (
         <p className="aboutme__title">PROFESORA, INSTITUTO DE DESARROLLO HUMANO E
           INVESTIGACION IDHEI</p>
 
-        <p className="aboutme__description">
-            Soy profesora universitaria por mas de 25 años, tengo Maestria y doctorado en
-            Psicoterapia de linea existencial, me dedico a capacitar tanto a docentes como
-            a personal en las empresas. Trabajo desarrollo de habilidades personales
-            y mejoramiento de la eficiencia personal.Asesoria especializada en problemas
-            de aprendizaje y consulta psicoterapeutica privada.Especialista en Brain Gym(R)
+        <p className="aboutme__description" dangerouslySetInnerHTML={aboutme_description}>
         </p>
 
         <div className="experience col-md-12">
