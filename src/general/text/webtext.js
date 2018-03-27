@@ -1,3 +1,4 @@
+ // MAin site
 export const braingym_definition = {__html: `
   También conocida como <strong>Brain Gym</strong> o gimnasia mental, es una técnica que abarca 26
   ejercicios que combinan estrategias físicas y mentales para un mejor rendimiento
@@ -17,3 +18,12 @@ Brain Gym® ayuda a estimular (dimensión Lateralidad), liberar (dimensión Enfo
 <br /><br />
 Los ejercicios integran las tres partes del cerebro para hacer que estén equilibradas y en correcto funcionamiento, y por ejemplo, evitar que nuestro pensamiento sea demasiado calculador bloqueando las emociones, o por el contrario, que las emociones nos desborden y no nos permitan pensar con claridad, o que ante una situación que nosotros percibimos amenazante nos congelemos.
 `}
+
+// About sistema
+export const aboutme_description = {__html: `Soy profesora universitaria por mas de 25 años, tengo Maestria y doctorado en
+Psicoterapia de linea existencial, me dedico a capacitar tanto a docentes como
+a personal en las empresas. Trabajo desarrollo de habilidades personales
+y mejoramiento de la eficiencia personal.Asesoria especializada en problemas
+de aprendizaje y consulta psicoterapeutica privada.Especialista en Brain Gym(R)`};
+
+export const contacto_info = {__html: `Si deseas contactar conmigo para saber más sobre mis servicios, ya sea Terapia Brain Gym® o servicios educativos, mándame un correo. Con gusto te responderé a la brevedad.`};
