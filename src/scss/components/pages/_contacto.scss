@@ -1,0 +1,33 @@
+.contacto {
+  margin-top: 3%;
+  .contacto__title{
+    font-family: $proxima_nova;
+    color: $bondi_blue;
+    border-bottom: 1px solid $bondi_blue;
+    font-weight: 400;
+    font-style: normal;
+    float: left;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 4%;
+    width: 100%;
+    text-align: left;
+  }
+
+  .contacto__form{
+    border: 1px solid $bondi_blue;
+    clear: both;
+    font-family: $proxima_nova;
+    text-align: left;
+    padding: 3%;
+  }
+
+  .contacto__form_info {
+    margin-bottom: 3%;
+  }
+
+  .contacto__label{
+    font-family: $proxima_nova;
+    color: $bondi_blue;
+  }
+}
