@@ -23,21 +23,21 @@ const Testimonial = ()=>(
             <p>“Sales coaches will be able to lead more reps and provide more
               focused and valuable coaching through the use of automated sales
                analytics from companies like ClearSlide.”</p>
-               <span class="testimonial-component__name ">Chuvakovich Zukosky</span>
+               <span className="testimonial-component__name ">Chuvakovich Zukosky</span>
           </div>
 
           <div className="testimonial-component">
             <p>“Sales coaches will be able to lead more reps and provide more
               focused and valuable coaching through the use of automated sales
                analytics from companies like ClearSlide.”</p>
-               <span class="testimonial-component__name ">Chuvakovich Zukosky</span>
+               <span className="testimonial-component__name ">Chuvakovich Zukosky</span>
           </div>
 
           <div className="testimonial-component">
             <p>“Sales coaches will be able to lead more reps and provide more
               focused and valuable coaching through the use of automated sales
                analytics from companies like ClearSlide.”</p>
-               <span class="testimonial-component__name ">Chuvakovich Zukosky</span>
+               <span className="testimonial-component__name ">Chuvakovich Zukosky</span>
           </div>
 
 
