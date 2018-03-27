@@ -1,5 +1,6 @@
 /// @author Chuvakovich Zukovsky
 @import '../../node_modules/bootstrap/scss/bootstrap';
+@import "mixins/breakpoints";
 // base
 @import 'base/variables';
 @import 'base/mixins';
@@ -8,13 +9,12 @@
 @import 'components/pages/about';
 @import 'components/pages/aboutme';
 @import 'components/pages/testimonials';
+@import 'components/pages/main';
 // components
 @import 'components/general/header';
 
 // Directives
 @import 'components/directives/testimonials';
-
-@import "mixins/breakpoints";
 @import "mixins/hover";
 @import "mixins/image";
 @import "mixins/badge";
